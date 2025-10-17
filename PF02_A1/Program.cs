@@ -1,2 +1,19 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿long CalcularFactorial(int n)
+{
+    if (n < 0)
+    {
+        return -1;
+    }
+    if (n == 0)
+    {
+        return 1;
+    }
+    long resultado = 1;
+
+
+    for (int i = 1; i <= n; i++)
+    {
+        resultado = resultado * i;
+    }
+    return resultado;
+}
