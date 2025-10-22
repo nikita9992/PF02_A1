@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PF02_A1", "PF02_A1\PF02_A1.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPruebasUnitarias", "TestPruebasUnitarias\TestPruebasUnitarias.csproj", "{087D3053-98D0-4D53-AC09-0EC117D4DF7A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPruebasUnitarias2", "TestPruebasUnitarias2\TestPruebasUnitarias2.csproj", "{5DBA6362-4D3C-4D4E-8308-8BA021EB23C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{087D3053-98D0-4D53-AC09-0EC117D4DF7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{087D3053-98D0-4D53-AC09-0EC117D4DF7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{087D3053-98D0-4D53-AC09-0EC117D4DF7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DBA6362-4D3C-4D4E-8308-8BA021EB23C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DBA6362-4D3C-4D4E-8308-8BA021EB23C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DBA6362-4D3C-4D4E-8308-8BA021EB23C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DBA6362-4D3C-4D4E-8308-8BA021EB23C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
