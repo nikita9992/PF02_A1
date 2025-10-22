@@ -1,14 +1,9 @@
-﻿//using System.ComponentModel.DataAnnotations;
-using PF02_A1;
-
+﻿using PF02_A1;
 namespace TestPruebasUnitarias2
 {
     [TestClass]
     public sealed class ValidadorTest
     {
-        //[TestMethod]
-        //public void TestMethod1()
-        //{
             [TestMethod]
             public void EsContrasenyaValida_InputEsNull_DebeDevolverFalse()
             {
@@ -24,13 +19,13 @@ namespace TestPruebasUnitarias2
             [TestMethod]
             public void EsContrasenyaValida_LongitudMenorA8_DebeDevolverFalse()
             {
-                Assert.IsFalse(Validador.EsContrasenyaValida("pass#12")); // 7 chars
+                Assert.IsFalse(Validador.EsContrasenyaValida("pass#12")); 
             }
 
             [TestMethod]
             public void EsContrasenyaValida_NoContieneHashtag_DebeDevolverFalse()
             {
-                Assert.IsFalse(Validador.EsContrasenyaValida("Password12345")); // Larga, sin #
+                Assert.IsFalse(Validador.EsContrasenyaValida("Password12345")); 
             }
 
             [TestMethod]
@@ -40,4 +35,3 @@ namespace TestPruebasUnitarias2
             }
         }
     }
-//}
