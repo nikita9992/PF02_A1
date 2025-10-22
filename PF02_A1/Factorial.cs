@@ -3,29 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace PF02_A1
 {
     public class Factorial
     {
-        public static long CalcularFactorial(int n)
+        public static long CalcularFactorial(int numero)
         {
-            //if (n < 0)
-            //{
-            //    return -1;
-            //}
-            //if (n == 0)
-            //{
-            //    return 1;
-            //}
-            long resultado = 2; //= 1;
+            if (numero < 0)
+                return -1;
 
-
-            //for (int i = 1; i <= n; i++)
-            //{
-            //    resultado = resultado * i;
-            //}
-            return resultado;
+            return numero == 0
+                ? 1
+                : Enumerable.Range(1, numero).Aggregate(1L, (acc, x) => acc * x);
         }
+
     }
 }
